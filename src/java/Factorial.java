@@ -19,7 +19,7 @@ public class Factorial extends HttpServlet{
         response.setContentType("text/html");
         out.println("<form method='POST' action='/MyWeb2025/Factorial'>");
         out.println("Enter a number: <input type='number' name='number'/><br><br>");
-        out.println("<input type='submit' name='Factorial'/><br><br>");
+        out.println("<input type='submit' value='Factorial'/><br><br>");
         out.println("</from>");
     }
     @Override
